@@ -14,7 +14,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, '../app/main.js')
+        main: path.resolve(__dirname, '../src/main.js')
     },
     output: {
         path: path.resolve(__dirname, '../dist'),
@@ -114,7 +114,7 @@ module.exports = {
         extensions: ['.vue', '.js'],
         alias: {
             'vue$': 'vue/dist/vue.esm.js',
-            '@': path.resolve(__dirname, '../app')
+            '@': path.resolve(__dirname, '../src')
         }
     },
     node: {

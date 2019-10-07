@@ -12,7 +12,7 @@ let config = merge(baseWebpackConfig, {
             warnings: true,
             errors: true
         },
-        port: 9000,
+        port: 9005,
         hot: true, // 启动热更新
     },
     devtool: 'cheap-module-eval-source-map'
